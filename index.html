@@ -2,266 +2,74 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Sentence Scramble</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Billy King</title>
   </head>
+
   <body>
+    <nav class="main-nav">
+      <ul class="nav">
+        <!-- <li><img src="img/me-drawn-by-sam.jpg" alt="a pencil drawing of me" class="profile-picture"></li> -->
+        <li class="name">Billy King</li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="others/magnet-project.html">Projects</a></li>
+      </ul>
+    </nav>
+
     <header>
-      <h1>Sentence Scramble</h1>
+      <span class="header">
+        <img src="img/me-drawn-by-sam.jpg" alt="a pencil drawing of me" class="profile-picture">
+        <h1 class="">Hello, I'm Billy!</h1>
+        <p class="hometown">My hometown is Myrtle Beach, South Carolina.</p>
+      </span>
     </header>
 
-    <a href="others/about.html">Click here for more!</a>
+    <main>
+      <div class="about-me card">
+        <h2>About Me</h2>
+        <p>I was born in Raleigh, North Carolina, but at the age of 3, my family moved to Myrtle Beach, South Carolina. I have spent the majority of my life living in Myrtle Beach making friends, working, and watching the area grow around me. I have spent almost the entirety of my adult life working in the service industry, which has taught me a lot about the way people act and what people want. Throughout highschool and much of college, I did not feel certain of what I wanted to do for a career, however one thing was always true; I want to do work that I feel has a meaningful impact on those around me.</p>
 
-    <div class="buttonContainer">
-      <input type="button" class="button" id="amp" value="&">
-      <input type="button" class="button" id="a" value="a">
-      <input type="button" class="button" id="about" value="about">
-      <input type="button" class="button" id="above" value="above">
-      <input type="button" class="button" id="ache" value="ache">
-      <input type="button" class="button" id="ad" value="ad">
-      <input type="button" class="button" id="after" value="after">
-      <input type="button" class="button" id="all" value="all">
-      <input type="button" class="button" id="am" value="am">
-      <input type="button" class="button" id="an" value="an">
-      <input type="button" class="button" id="and" value="and">
-      <input type="button" class="button" id="apparatus" value="apparatus">
-      <input type="button" class="button" id="are" value="are">
-      <input type="button" class="button" id="arm" value="arm">
-      <input type="button" class="button" id="as" value="as">
-      <input type="button" class="button" id="ask" value="ask">
-      <input type="button" class="button" id="at" value="at">
-      <input type="button" class="button" id="away" value="away">
-      <input type="button" class="button" id="bare" value="bare">
-      <input type="button" class="button" id="be" value="be">
-      <input type="button" class="button" id="beat" value="beat">
-      <input type="button" class="button" id="beauty" value="beauty">
-      <input type="button" class="button" id="bed" value="bed">
-      <input type="button" class="button" id="beneath" value="beneath">
-      <input type="button" class="button" id="bitter" value="bitter">
-      <input type="button" class="button" id="black" value="black">
-      <input type="button" class="button" id="blood" value="blood">
-      <input type="button" class="button" id="blow" value="blow">
-      <input type="button" class="button" id="blue" value="blue">
-      <input type="button" class="button" id="boil" value="boil">
-      <input type="button" class="button" id="boy" value="boy">
-      <input type="button" class="button" id="breast" value="breast">
-      <input type="button" class="button" id="but" value="but">
-      <input type="button" class="button" id="butt" value="butt">
-      <input type="button" class="button" id="by" value="by">
-      <input type="button" class="button" id="can" value="can">
-      <input type="button" class="button" id="chant" value="chant">
-      <input type="button" class="button" id="chocolate" value="chocolate">
-      <input type="button" class="button" id="cool" value="cool">
-      <input type="button" class="button" id="could" value="could">
-      <input type="button" class="button" id="crush" value="crush">
-      <input type="button" class="button" id="cry" value="cry">
-      <input type="button" class="button" id="d" value="d">
-      <input type="button" class="button" id="day" value="day">
-      <input type="button" class="button" id="death" value="death">
-      <input type="button" class="button" id="delirious" value="delirious">
-      <input type="button" class="button" id="diamond" value="diamond">
-      <input type="button" class="button" id="did" value="did">
-      <input type="button" class="button" id="do" value="do">
-      <input type="button" class="button" id="dream" value="dream">
-      <input type="button" class="button" id="dress" value="dress">
-      <input type="button" class="button" id="drive" value="drive">
-      <input type="button" class="button" id="drool" value="drool">
-      <input type="button" class="button" id="drunk" value="drunk">
-      <input type="button" class="button" id="eat" value="eat">
-      <input type="button" class="button" id="ed" value="ed">
-      <input type="button" class="button" id="egg" value="egg">
-      <input type="button" class="button" id="elaborate" value="elaborate">
-      <input type="button" class="button" id="enormous" value="enormous">
-      <input type="button" class="button" id="er" value="er">
-      <input type="button" class="button" id="es" value="es">
-      <input type="button" class="button" id="est" value="est">
-      <input type="button" class="button" id="fast" value="fast">
-      <input type="button" class="button" id="feet" value="feet">
-      <input type="button" class="button" id="fiddle" value="fiddle">
-      <input type="button" class="button" id="finger" value="finger">
-      <input type="button" class="button" id="fluff" value="fluff">
-      <input type="button" class="button" id="for" value="for">
-      <input type="button" class="button" id="forest" value="forest">
-      <input type="button" class="button" id="frantic" value="frantic">
-      <input type="button" class="button" id="friend" value="friend">
-      <input type="button" class="button" id="from" value="from">
-      <input type="button" class="button" id="garden" value="garden">
-      <input type="button" class="button" id="girl" value="girl">
-      <input type="button" class="button" id="go" value="go">
-      <input type="button" class="button" id="goddess" value="goddess">
-      <input type="button" class="button" id="gorgeous" value="gorgeous">
-      <input type="button" class="button" id="gown" value="gown">
-      <input type="button" class="button" id="hair" value="hair">
-      <input type="button" class="button" id="has" value="has">
-      <input type="button" class="button" id="have" value="have">
-      <input type="button" class="button" id="he" value="he">
-      <input type="button" class="button" id="head" value="head">
-      <input type="button" class="button" id="heave" value="heave">
-      <input type="button" class="button" id="her" value="her">
-      <input type="button" class="button" id="here" value="here">
-      <input type="button" class="button" id="him" value="him">
-      <input type="button" class="button" id="his" value="his">
-      <input type="button" class="button" id="honey" value="honey">
-      <input type="button" class="button" id="hot" value="hot">
-      <input type="button" class="button" id="how" value="how">
-      <input type="button" class="button" id="I" value="I">
-      <input type="button" class="button" id="if" value="if">
-      <input type="button" class="button" id="in" value="in">
-      <input type="button" class="button" id="ing" value="ing">
-      <input type="button" class="button" id="is" value="is">
-      <input type="button" class="button" id="it" value="it">
-      <input type="button" class="button" id="juice" value="juice">
-      <input type="button" class="button" id="lake" value="lake">
-      <input type="button" class="button" id="language" value="language">
-      <input type="button" class="button" id="languid" value="languid">
-      <input type="button" class="button" id="lather" value="lather">
-      <input type="button" class="button" id="lazy" value="lazy">
-      <input type="button" class="button" id="less" value="less">
-      <input type="button" class="button" id="let" value="let">
-      <input type="button" class="button" id="lick" value="lick">
-      <input type="button" class="button" id="lie" value="lie">
-      <input type="button" class="button" id="life" value="life">
-      <input type="button" class="button" id="light" value="light">
-      <input type="button" class="button" id="like" value="like">
-      <input type="button" class="button" id="live" value="live">
-      <input type="button" class="button" id="love" value="love">
-      <input type="button" class="button" id="luscious" value="luscious">
-      <input type="button" class="button" id="lust" value="lust">
-      <input type="button" class="button" id="ly" value="ly">
-      <input type="button" class="button" id="mad" value="mad">
-      <input type="button" class="button" id="man" value="man">
-      <input type="button" class="button" id="me" value="me">
-      <input type="button" class="button" id="mean" value="mean">
-      <input type="button" class="button" id="meat" value="meat">
-      <input type="button" class="button" id="men" value="men">
-      <input type="button" class="button" id="milk" value="milk">
-      <input type="button" class="button" id="mist" value="mist">
-      <input type="button" class="button" id="moan" value="moan">
-      <input type="button" class="button" id="moon" value="moon">
-      <input type="button" class="button" id="mother" value="mother">
-      <input type="button" class="button" id="music" value="music">
-      <input type="button" class="button" id="must" value="must">
-      <input type="button" class="button" id="my" value="my">
-      <input type="button" class="button" id="need" value="need">
-      <input type="button" class="button" id="never" value="never">
-      <input type="button" class="button" id="no" value="no">
-      <input type="button" class="button" id="not" value="not">
-      <input type="button" class="button" id="of" value="of">
-      <input type="button" class="button" id="on" value="on">
-      <input type="button" class="button" id="one" value="one">
-      <input type="button" class="button" id="or" value="or">
-      <input type="button" class="button" id="our" value="our">
-      <input type="button" class="button" id="over" value="over">
-      <input type="button" class="button" id="pant" value="pant">
-      <input type="button" class="button" id="peach" value="peach">
-      <input type="button" class="button" id="petal" value="petal">
-      <input type="button" class="button" id="picture" value="picture">
-      <input type="button" class="button" id="pink" value="pink">
-      <input type="button" class="button" id="play" value="play">
-      <input type="button" class="button" id="please" value="please">
-      <input type="button" class="button" id="pole" value="pole">
-      <input type="button" class="button" id="pound" value="pound">
-      <input type="button" class="button" id="puppy" value="puppy">
-      <input type="button" class="button" id="purple" value="purple">
-      <input type="button" class="button" id="put" value="put">
-      <input type="button" class="button" id="r" value="r">
-      <input type="button" class="button" id="rain" value="rain">
-      <input type="button" class="button" id="raw" value="raw">
-      <input type="button" class="button" id="recall" value="recall">
-      <input type="button" class="button" id="red" value="red">
-      <input type="button" class="button" id="repulsive" value="repulsive">
-      <input type="button" class="button" id="rip" value="rip">
-      <input type="button" class="button" id="rock" value="rock">
-      <input type="button" class="button" id="rose" value="rose">
-      <input type="button" class="button" id="run" value="run">
-      <input type="button" class="button" id="rust" value="rust">
-      <input type="button" class="button" id="s" value="s">
-      <input type="button" class="button" id="sad" value="sad">
-      <input type="button" class="button" id="said" value="said">
-      <input type="button" class="button" id="sausage" value="sausage">
-      <input type="button" class="button" id="say" value="say">
-      <input type="button" class="button" id="scream" value="scream">
-      <input type="button" class="button" id="sea" value="sea">
-      <input type="button" class="button" id="see" value="see">
-      <input type="button" class="button" id="shadow" value="shadow">
-      <input type="button" class="button" id="she" value="she">
-      <input type="button" class="button" id="shine" value="shine">
-      <input type="button" class="button" id="ship" value="ship">
-      <input type="button" class="button" id="shot" value="shot">
-      <input type="button" class="button" id="show" value="show">
-      <input type="button" class="button" id="sing" value="sing">
-      <input type="button" class="button" id="sit" value="sit">
-      <input type="button" class="button" id="skin" value="skin">
-      <input type="button" class="button" id="sky" value="sky">
-      <input type="button" class="button" id="sleep" value="sleep">
-      <input type="button" class="button" id="smear" value="smear">
-      <input type="button" class="button" id="smell" value="smell">
-      <input type="button" class="button" id="smooth" value="smooth">
-      <input type="button" class="button" id="so" value="so">
-      <input type="button" class="button" id="soar" value="soar">
-      <input type="button" class="button" id="some" value="some">
-      <input type="button" class="button" id="sordid" value="sordid">
-      <input type="button" class="button" id="spray" value="spray">
-      <input type="button" class="button" id="spring" value="spring">
-      <input type="button" class="button" id="still" value="still">
-      <input type="button" class="button" id="stop" value="stop">
-      <input type="button" class="button" id="storm" value="storm">
-      <input type="button" class="button" id="suit" value="suit">
-      <input type="button" class="button" id="summer" value="summer">
-      <input type="button" class="button" id="sun" value="sun">
-      <input type="button" class="button" id="sweat" value="sweat">
-      <input type="button" class="button" id="sweet" value="sweet">
-      <input type="button" class="button" id="swim" value="swim">
-      <input type="button" class="button" id="symphony" value="symphony">
-      <input type="button" class="button" id="the" value="the">
-      <input type="button" class="button" id="their" value="their">
-      <input type="button" class="button" id="there" value="there">
-      <input type="button" class="button" id="these" value="these">
-      <input type="button" class="button" id="they" value="they">
-      <input type="button" class="button" id="those" value="those">
-      <input type="button" class="button" id="though" value="though">
-      <input type="button" class="button" id="thousand" value="thousand">
-      <input type="button" class="button" id="through" value="through">
-      <input type="button" class="button" id="time" value="time">
-      <input type="button" class="button" id="tiny" value="tiny">
-      <input type="button" class="button" id="to" value="to">
-      <input type="button" class="button" id="together" value="together">
-      <input type="button" class="button" id="tongue" value="tongue">
-      <input type="button" class="button" id="trudge" value="trudge">
-      <input type="button" class="button" id="tv" value="TV">
-      <input type="button" class="button" id="ugly" value="ugly">
-      <input type="button" class="button" id="up" value="up">
-      <input type="button" class="button" id="urge" value="urge">
-      <input type="button" class="button" id="us" value="us">
-      <input type="button" class="button" id="use" value="use">
-      <input type="button" class="button" id="want" value="want">
-      <input type="button" class="button" id="was" value="was">
-      <input type="button" class="button" id="watch" value="watch">
-      <input type="button" class="button" id="water" value="water">
-      <input type="button" class="button" id="wax" value="wax">
-      <input type="button" class="button" id="we" value="we">
-      <input type="button" class="button" id="were" value="were">
-      <input type="button" class="button" id="what" value="what">
-      <input type="button" class="button" id="when" value="when">
-      <input type="button" class="button" id="whisper" value="whisper">
-      <input type="button" class="button" id="who" value="who">
-      <input type="button" class="button" id="why" value="why">
-      <input type="button" class="button" id="will" value="will">
-      <input type="button" class="button" id="wind" value="wind">
-      <input type="button" class="button" id="with" value="with">
-      <input type="button" class="button" id="woman" value="woman">
-      <input type="button" class="button" id="worship" value="worship">
-      <input type="button" class="button" id="y" value="y">
-      <input type="button" class="button" id="yet" value="yet">
-      <input type="button" class="button" id="you" value="you">
-    </div>
+      </div>
 
-    <div class='inputZone'>
+      <div class="group card">
+        <div class="skills">
+          <h2 class="skills-heading">Soft Skills</h2>
+          <ul class="skills-list">
+            <li class="li-main">Communication</li>
+            <li class="li-main">Critical Thinking</li>
+            <li class="li-main">Leadership</li>
+            <li class="li-main">Teamwork</li>
+            <li class="li-main">Hard Work Ethic</li>
+          </ul>
+        </div>
 
-      <main class="mainText" id="mainText"></main>
-      <input type="button" class="resetButton" id="resetButton" value="Restart!">
-    </div>
+        <div class="certs card">
+          <h2 class="certs-heading">Certifications</h2>
+          <ul class="certs-list">
+            <li class="li-main">HubSpot Social Media Certification</li>
+            <li class="li-main">HootSuite Social Media Certification</li>
+            <li class="li-main">Google Analytics Certification</li>
+          </ul>
+        </div>
+      </div>
 
-    <script src="js/test.js"></script>
+      <div class="in-progress card">
+        <h2 class="ip-heading">What I'm Learning</h2>
+        <ul class="ip-list">
+          <li class="ip-li">HTML</li>
+          <li class="ip-li">CSS</li>
+          <li class="ip-li">JavaScript</li>
+          <li class="ip-li">SEO Optimization</li>
+        </ul>
+
+      </div>
+    </main>
+    <footer>
+      <p>All rights reserved, Billy King.</p>
+    </footer>
+    <script src="js/practice.js">
   </body>
 </html>
