@@ -286,10 +286,6 @@ are.addEventListener('click', () => {
 arm.addEventListener('click', () => {
   document.querySelector('main').insertAdjacentHTML('beforeend', `<span>${arm.value}</span>` + " ");
 });
-
-
-
-
 as.addEventListener('click', () => {
   document.querySelector('main').insertAdjacentHTML('beforeend', `<span>${as.value}</span>` + " ");
 });
