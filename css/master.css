@@ -70,10 +70,6 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
-/* .nav a:hover {
-  color: #c75dfc;
-  transform: scale(1.2);
-} */
 
 /* Styles */
 
@@ -143,28 +139,6 @@ a:hover {
 .card {
   font-weight: 600;
   line-height: 1.5;
-}
-
-/* Hover Styles */
-
-.skills:hover {
-  transform: scale(1.2) translateX(-50px);
-  border-color: black;
-}
-
-.certs:hover {
-  transform: scale(1.2) translateX(50px);
-  border-color: black;
-}
-
-.in-progress:hover {
-  transform: scale(1.2) translateY(-50px);
-  border-color: black;
-}
-
-.about-me:hover {
-  transform: scale(1.2) translateY(50px);
-  border-color: black;
 }
 
 .profile-picture:hover {
