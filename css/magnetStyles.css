@@ -22,6 +22,14 @@ header {
   width: 90%;
 }
 
+.resetButton {
+  margin: auto;
+  width: 25%;
+  height: 65px;
+  font-size: 2em;
+  text-align: center;
+}
+
 .resetButtonContainer {
   margin: auto;
   width: 25%;
