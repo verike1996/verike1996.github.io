@@ -1,0 +1,58 @@
+* {
+  background-color: lightblue;
+}
+
+header {
+  font-weight: 1.5em;
+  text-align: center;
+}
+
+.button {
+  width: 75px;
+  height: 30px;
+  margin: 3px;
+  border-radius: 0;
+  background-color: white;
+  border: none;
+  box-shadow: 2px 2px #000, -1px -1px #000;
+}
+
+.buttonContainer {
+  margin: auto;
+  width: 90%;
+}
+
+.resetButton {
+  margin: auto;
+  width: 25%;
+  height: 65px;
+  font-size: 2em;
+  text-align: center;
+}
+
+.resetButtonContainer {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.inputZone {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.mainText {
+  text-align: center;
+  font-size: 2em;
+}
+
+span {
+  display: inline-block;
+  border-radius: 0;
+  background-color: white;
+  border: 1px 1px 1px 1px solid black;
+  box-shadow: 2px 2px #000, -1px -1px #000;
+}
