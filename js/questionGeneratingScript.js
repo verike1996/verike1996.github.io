@@ -1,14 +1,20 @@
+
+
 let questionHTMLInput = '';
+let firstRandomNumber = 0;
+let previousRandomNumber = 1;
 let casualQuestions = document.getElementById('casualQuestions');
+let funQuestions = document.getElementById('funQuestions');
 let seriousQuestions = document.getElementById('seriousQuestions');
 let childhoodQuestions = document.getElementById('childhoodQuestions');
 let weirdQuestions = document.getElementById('weirdQuestions');
 let allQuestions = document.getElementById('allQuestions');
 let getQuestion = document.getElementById('questionButton');
 let casualQuestionList = ['What TV shows are you into?', 'Are you usually late or early?', 'What is your favorite drink?', 'If you could live anywhere in the world, where would you live?', 'What is your favorite song?', 'What would you rate 10/10?'];
-let seriousQuestionList = ['serious'];
-let childhoodQuestionList = ['childhood'];
-let weirdQuestionList = ['weird'];
+let funQuestionList = ['What animal would be way better if it was covered in scales?', '']
+let seriousQuestionList = ['Where is your life headed?', 'What are the highest and lowest points of your life?', 'What are the biggest goals for your life?'];
+let childhoodQuestionList = ['Where did you grow up?', 'When you were a child, what did you want to be when you grew up?', ];
+let weirdQuestionList = ['one', 'two'];
 let allQuestionList = [...casualQuestionList, ...seriousQuestionList, ...childhoodQuestionList, ...weirdQuestionList];
 let questionList = allQuestionList;
 
@@ -18,6 +24,10 @@ function getRandomNumber() {
 
 casualQuestions.addEventListener('click', () => {
   questionList = casualQuestionList;
+})
+
+funQuestions.addEventListener('click', () => {
+  questionList = funQuestionList;
 })
 
 seriousQuestions.addEventListener('click', () => {
@@ -37,5 +47,11 @@ allQuestions.addEventListener('click', () => {
 })
 
 getQuestion.addEventListener('click', () => {
-  questionHTMLInput = questionList[getRandomNumber()];    document.querySelector('main').innerHTML = questionHTMLInput;
+  // firstNumberTest = getRandomNumber();
+  while (firstRandomNumber == previousRandomNumber) {
+    firstRandomNumber = getRandomNumber();
+  }
+  previousRandomNumber = firstRandomNumber;
+  questionHTMLInput = questionList[previousRandomNumber];
+  document.querySelector('main').innerHTML = questionHTMLInput;
 })
