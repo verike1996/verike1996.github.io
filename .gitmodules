@@ -1,0 +1,3 @@
+[submodule "nav-sites/google-homepage-recreation"]
+	path = nav-sites/google-homepage-recreation
+	url = git@github.com:verike1996/google-homepage-recreation.git
