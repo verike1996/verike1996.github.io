@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/mainStyles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <body>
+        <div class="content">
+            <header>
+                <h1>Rock Paper Scissors</h1>
+            </header>
+
+            <div class="scoreContainer">
+                <div>
+                    <span id="playerScore">Player Score: 0</span>
+                </div>
+                <div>
+                    <span id="computerScore">Computer Score: 0</span>
+                </div>
+            </div>
+
+            <div class="btnContainer">
+                <div class="imgWrapper"><img class='button' id="isRock" src="img/rock.svg" alt="a picture of rock"></div>
+                <div  class="imgWrapper"><img class='button' id="isPaper" src="img/paper.svg" alt="a picture of paper"></div>
+                <div  class="imgWrapper"><img class='button' id="isScissors" src="img/scissors.svg" alt="a picture of scissors"></div>
+            </div>
+        
+            <div class="resultsImgContainer">
+                <span id="youPlayed">You played:</span>
+                <span id="computerPlayed">Computer Played:</span>
+                <div id="playerChoiceImg">
+
+                </div>
+                <div id="computerChoiceImg">
+
+                </div>
+            </div>
+            <div class="messageContainer">
+                <div class="scoreUpdateMessageDiv">
+                    <span id="scoreUpdateMessage"></span>
+                </div>
+                <div class="winMessageDiv">
+                    <span id="winMessage"></span>
+                </div>
+                <div id="resetButtonDiv">
+                    <span id="resetButton"></span>
+                </div>
+            </div>
+            <script src="js/script.js"></script>
+        </div>
+    </body>
+    <footer>
+        <a href="https://github.com/verike1996" target="blank">View my GitHub!</a>
+        <a href="https://www.vecteezy.com/free-vector/cartoon" target="blank">Cartoon Vectors by Vecteezy</a>
+    </footer>
+</html>

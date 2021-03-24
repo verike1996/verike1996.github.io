@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2084 2084" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g transform="matrix(4.16667,0,0,4.16667,0,0)">
+        <g id="Rock" transform="matrix(2,0,0,2,-185.08,-428)">
+            <path d="M265.22,323.7L265.22,371.7C265.22,393.259 247.479,411 225.92,411L209.17,411C187.611,411 169.87,393.259 169.87,371.7L169.87,324.31" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M169.87,324.34L169.87,278.92C169.87,272.381 175.251,267 181.79,267C188.325,267.005 193.7,272.385 193.7,278.92L193.7,324.34" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M241.38,324.34L241.38,278.92C241.38,272.381 246.761,267 253.3,267C259.839,267 265.22,272.381 265.22,278.92L265.22,324.34" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M193.7,336.58L193.7,314.36C193.7,307.821 199.081,302.44 205.62,302.44C205.623,302.44 205.627,302.44 205.63,302.44C212.164,302.44 217.54,307.816 217.54,314.35C217.54,314.353 217.54,314.357 217.54,314.36L217.54,320.48" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M217.54,338.28L217.54,314.36C217.54,307.821 222.921,302.44 229.46,302.44C229.463,302.44 229.467,302.44 229.47,302.44C236.004,302.44 241.38,307.816 241.38,314.35C241.38,314.353 241.38,314.357 241.38,314.36L241.38,343.36C241.38,349.899 235.999,355.28 229.46,355.28C227.09,355.297 224.769,354.6 222.8,353.28" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M169.87,350.58C169.87,342.9 176.19,336.58 183.87,336.58L211.42,336.58C217.959,336.58 223.34,341.961 223.34,348.5C223.34,348.503 223.34,348.507 223.34,348.51C223.34,355.044 217.964,360.42 211.43,360.42C211.427,360.42 211.423,360.42 211.42,360.42L192.87,360.42" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M206.59,360.42C213.661,360.42 219.48,366.239 219.48,373.31L219.48,381.68" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+        </g>
+    </g>
+</svg>

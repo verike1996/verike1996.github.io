@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2084 2084" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g transform="matrix(4.16667,0,0,4.16667,0,0)">
+        <g id="Scissors" transform="matrix(2,0,0,2,-1314.92,-428)">
+            <path d="M784.28,365.18L795.55,378.27" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M782.46,327.54L735.08,267C726.82,282.17 728.99,301.59 740.33,314.1L767.39,345.55" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M811.91,365.18L798.82,348.45" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M754.64,365.18L831.47,267C839.73,282.17 837.56,301.59 826.22,314.1L769.37,381.55" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <path d="M784.09,343.91C784.093,343.91 784.097,343.91 784.1,343.91C785,343.91 785.74,344.65 785.74,345.55C785.74,346.45 785,347.19 784.1,347.19C783.2,347.19 782.46,346.45 782.46,345.55C782.46,345.547 782.46,345.543 782.46,345.54C782.46,344.646 783.196,343.91 784.09,343.91C784.09,343.91 784.09,343.91 784.09,343.91" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:7px;"/>
+            <circle cx="746.46" cy="388.09" r="22.91" style="fill:none;stroke:white;stroke-width:7px;"/>
+            <circle cx="746.46" cy="388.09" r="9.82" style="fill:none;stroke:white;stroke-width:7px;"/>
+            <circle cx="818.46" cy="388.09" r="22.91" style="fill:none;stroke:white;stroke-width:7px;"/>
+            <circle cx="818.46" cy="388.09" r="9.82" style="fill:none;stroke:white;stroke-width:7px;"/>
+        </g>
+    </g>
+</svg>
