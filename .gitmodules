@@ -1,3 +1,6 @@
 [submodule "nav-sites/google-homepage-recreation"]
 	path = nav-sites/google-homepage-recreation
 	url = git@github.com:verike1996/google-homepage-recreation.git
+[submodule "nav-sites/projects/rock_paper_scissors"]
+	path = nav-sites/projects/rock_paper_scissors
+	url = git@github.com:verike1996/rock_paper_scissors.git
