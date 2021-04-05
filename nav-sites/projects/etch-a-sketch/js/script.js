@@ -17,6 +17,7 @@ function setGridSize(size) {
 }
 
 function createNewGrid(size) {
+    clearGrid();
     setGridSize(size);
     fillGrid(size);
 }
@@ -29,7 +30,19 @@ function changeColor(e) {
     e.target.style.backgroundColor = 'black';
 }
 
+function clearGrid() {
+    while (canvas.firstChild) {
+        canvas.removeChild(canvas.firstChild);
+    }
+}
+
 const canvas = document.getElementById('canvas');
 const resetButton = document.getElementById('resetButton');
 
+let color = 'black';
+
 window.addEventListener('load', defaultGrid);
+
+// still need to add a function that clears the grid so you can change the size
+//need to add a function that lets you change the color you draw with
+// need to add a function that changes the size of the grid
