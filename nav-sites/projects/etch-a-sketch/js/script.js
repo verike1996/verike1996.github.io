@@ -63,15 +63,20 @@ function changeGridSize() {
     }
 }
 
-function userColorSelection(event) {
-    customColor = event.target.value;
+function userColorSelection(e) {
+    customColor = e.target.value;
     color = 'custom';
     whatColor();
     displayColor.style.backgroundColor = colorChoice;
 }
 
+function eraseAll(e) {
+    e.style.backgroundColor = 'white';
+}
+
 const canvas = document.getElementById('canvas');
 const changeButton = document.getElementById('changeButton');
+const clearButton = document.getElementById('clearButton');
 
 const greyChoice = document.getElementById('greyChoice');
 const blackChoice = document.getElementById('blackChoice');
@@ -87,6 +92,7 @@ window.addEventListener('load', defaultGrid);
 changeButton.addEventListener('click', changeGridSize);
 
 colorPicker.addEventListener('change', userColorSelection, false)
+colorPicker.addEventListener('click', userColorSelection, false)
 blackChoice.addEventListener('click', () => {
     color = 'black';
     whatColor();
@@ -102,6 +108,7 @@ greyChoice.addEventListener('click', () => {
     whatColor();
     displayColor.style.backgroundColor = colorChoice;
 })
-
-//need to add a function that lets you change the color you draw with
-// need to add a function that changes the size of the grid
+clearButton.addEventListener('click', () => {
+    let canvasChildrenArray = Array.from(document.getElementById('canvas').children);
+    canvasChildrenArray.forEach(eraseAll);
+})
