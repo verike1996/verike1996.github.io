@@ -9,17 +9,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div id="displayColor"></div>
-    <button id="greyChoice">Grey</button>
-    <button id="blackChoice">Black</button>
-    <button id="whiteChoice">White</button>
-    <input type="color" name="" id="colorPicker">
+    <h1>Etch-a-Sketch</h1>
+    <div class="choiceContainer">
+        <button id="greyChoice">Grey</button>
+        <button id="blackChoice">Black</button>
+        <button id="whiteChoice">White</button>
+        <input type="color" name="" id="colorPicker">
+    </div>
     <div id="canvas">
         
     </div>
+    <h2>Your current color:</h2>
+    <div id="displayColor"></div>
     <button id="changeButton">Change Size</button>
     <button id="clearButton">Clear Canvas</button>
     
