@@ -15,19 +15,30 @@
 
 <body>
     <h1>Etch-a-Sketch</h1>
+    <div class="gridButtonsContainer">
+        <button id="changeButton" class="gridButton">Change Size</button>
+        <button id="clearButton" class="gridButton">Clear Canvas</button>
+    </div>
+
+    <div id="canvas"></div>
+
     <div class="choiceContainer">
         <button id="greyChoice">Grey</button>
         <button id="blackChoice">Black</button>
         <button id="whiteChoice">White</button>
         <input type="color" name="" id="colorPicker">
     </div>
-    <div id="canvas">
-        
+
+    <div class="currentContainer">
+        <div class="currentColor">
+            <h2>Current color:</h2>
+            <div id="displayColor"></div>
+        </div>
+        <div class="currentSize">
+            <h2>Current size:</h2>
+            <div id="canvasSize"></div>
+        </div>
     </div>
-    <h2>Your current color:</h2>
-    <div id="displayColor"></div>
-    <button id="changeButton">Change Size</button>
-    <button id="clearButton">Clear Canvas</button>
     
     <script src="js/script.js"></script>
 </body>

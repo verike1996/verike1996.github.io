@@ -1,6 +1,6 @@
 html {
-    background-color: #ffd325;
-    color: #15616D;
+    background-color: #616850;
+    color: #FFD325;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
@@ -15,7 +15,10 @@ body {
 button {
     background-color: #001524;
     color: #ffd325;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
     border-style: none;
+    height: 50px;
     width: 100px;
 }
 
@@ -23,36 +26,68 @@ input {
     background-color: #001524;
     color: #ffd325;
     border-style: none;
+    height: 50px;
     width: 100px;
 }
 
 h1 {
     font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 h2 {
     font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
-.choiceContainer {
+.gridButton {
+    width: 200px;
+    height: 75px;
+}
+
+.gridButtonsContainer {
     display: flex;
     justify-content: space-evenly;
     width: 560px;
     margin: 20px;
 }
 
+.currentContainer {
+    display: flex;
+    width: 560px;
+    justify-content: space-evenly;
+}
+
+.currentColor,
+.currentSize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+}
+
+.choiceContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 560px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 #canvas {
     display: grid;
-    width: 560px;
-    height: 560px;
+    width: 500px;
+    height: 500px;
     margin: auto;
-    border: 7px solid #364547;
+    border: 7px solid #001524;
     background-color: white;
 }
 
 #displayColor {
-    width: 200px;
-    height: 75px;
-    border: 2px solid #364547;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #001524;
     background-color: black;
 }

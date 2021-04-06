@@ -20,6 +20,7 @@ function createNewGrid(size) {
     clearGrid();
     setGridSize(size);
     fillGrid(size);
+    canvasSize.textContent = `${size} x ${size}`
 }
 
 function defaultGrid() {
@@ -77,6 +78,7 @@ function eraseAll(e) {
 const canvas = document.getElementById('canvas');
 const changeButton = document.getElementById('changeButton');
 const clearButton = document.getElementById('clearButton');
+const canvasSize = document.getElementById('canvasSize');
 
 const greyChoice = document.getElementById('greyChoice');
 const blackChoice = document.getElementById('blackChoice');
