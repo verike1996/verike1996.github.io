@@ -5,3 +5,9 @@
     margin: auto;
     border: 3px solid black;
 }
+
+#displayColor {
+    width: 200px;
+    height: 200px;
+    border: 2px solid orange;
+}

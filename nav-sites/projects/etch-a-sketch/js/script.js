@@ -26,17 +26,21 @@ function defaultGrid() {
     createNewGrid(16);
 }
 
-function changeColor(e) {
-    if (choice == 'custom') {
-        e.target.style.backgroundColor = customColor;
-    } else if (choice == 'grey') {
-        e.target.style.backgroundColor = 'grey';
-    } else if (choice == 'white') {
-        e.target.style.backgroundColor = 'white';
+function whatColor() {
+    if (color == 'custom') {
+        colorChoice = customColor;
+    } else if (color == 'grey') {
+        colorChoice = 'grey';
+    } else if (color == 'white') {
+        colorChoice = 'white';
     } else {
-        e.target.style.backgroundColor = 'black';
+        colorChoice = 'black';
     }
-    
+}
+
+function changeColor(e) {
+    whatColor();
+    e.target.style.backgroundColor = colorChoice;
 }
 
 function clearGrid() {
@@ -46,24 +50,24 @@ function clearGrid() {
 }
 
 function changeGridSize() {
-    let newSize;
     newSize = prompt('Pick a new canvas size between 1-100!');
-    if (newSize < 1 || newSize > 100 || newSize == NaN) {
-        alert('Pick a new canvas size between 1-100');
-        changeGridSize();
-    } else {
-        clearGrid();
-        createNewGrid(newSize);
+    if (newSize !== null) {
+        newSize = parseInt(newSize);
+        if (newSize < 1 || newSize > 100 || Number.isNaN(newSize)) {
+            alert('Pick a new canvas size between 1-100');
+            changeGridSize();
+        } else {
+            clearGrid();
+            createNewGrid(newSize);
+        }
     }
-}
-
-function whatColor() {
-   
 }
 
 function userColorSelection(event) {
     customColor = event.target.value;
-    choice = 'custom';
+    color = 'custom';
+    whatColor();
+    displayColor.style.backgroundColor = colorChoice;
 }
 
 const canvas = document.getElementById('canvas');
@@ -73,14 +77,31 @@ const greyChoice = document.getElementById('greyChoice');
 const blackChoice = document.getElementById('blackChoice');
 const whiteChoice = document.getElementById('whiteChoice');
 const colorPicker = document.getElementById('colorPicker');
+const displayColor = document.getElementById('displayColor');
 
 let color = 'black';
+let colorChoice = 'black';
 let customColor;
-let choice;
 
 window.addEventListener('load', defaultGrid);
 changeButton.addEventListener('click', changeGridSize);
+
 colorPicker.addEventListener('change', userColorSelection, false)
+blackChoice.addEventListener('click', () => {
+    color = 'black';
+    whatColor();
+    displayColor.style.backgroundColor = colorChoice;
+})
+whiteChoice.addEventListener('click', () => {
+    color = 'white';
+    whatColor();
+    displayColor.style.backgroundColor = colorChoice;
+})
+greyChoice.addEventListener('click', () => {
+    color = 'grey';
+    whatColor();
+    displayColor.style.backgroundColor = colorChoice;
+})
 
 //need to add a function that lets you change the color you draw with
 // need to add a function that changes the size of the grid
