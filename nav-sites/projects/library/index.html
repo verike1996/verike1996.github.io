@@ -1,76 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="../css/master.css">
-    <title>Billy King - Projects</title>
-  </head>
-
-  <body>
-    <nav class="main-nav">
-      <ul class="nav">
-        <!-- <li><img src="img/me-drawn-by-sam.jpg" alt="a pencil drawing of me" class="profile-picture"></li> -->
-        <li class="name">Billy King</li>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="education.html">Education</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="projects.html">Projects</a></li>
-      </ul>
-    </nav>
-
-    <header>
-
-    </header>
-
-    <main>
-      <div class="about-me card">
-        <h2>About Me</h2>
-        <a href="projects/google-homepage-recreation/index.html">Google Homepage Recreation</a>
-        <a href="projects/rps/index.html">Rock Paper Scissors</a>
-        <a href="projects/etch-a-sketch/index.html">etch-a-sketch</a>
-        <a href="projects/magnet.html">Magnet Project</a>
-
-
-      </div>
-
-      <div class="group card">
-        <div class="skills">
-          <h2 class="skills-heading">Soft Skills</h2>
-          <ul class="skills-list">
-            <li class="li-main">Communication</li>
-            <li class="li-main">Critical Thinking</li>
-            <li class="li-main">Leadership</li>
-            <li class="li-main">Teamwork</li>
-            <li class="li-main">Hard Work Ethic</li>
-          </ul>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <title>Library Tracker</title>
+</head>
+<body>
+    <div class="add-book-card form-wrapper show-form">
+        <div class="add-book-form">
+            <form action="">
+                <div class="form-item-wrapper">
+                    <label for="book-title">Book Title</label>
+                    <input type="text" name="book-title" id="book-title">
+                </div>
+                <div class="form-item-wrapper">
+                    <label for="book-author">Book Author</label>
+                    <input type="text" name="book-author" id="book-author">
+                </div>
+                <div class="form-item-wrapper">
+                    <label for="status">Status</label>
+                    <select name="status" id="status">
+                      <option value="Read">Read</option>
+                      <option value="Not Read">Not Read</option>
+                    </select>
+                </div>
+            </form>
+            <div class="button-container">
+                <button id="add-book-button">Add</button>
+                <button id="cancel-book-button">Cancel</button>
+            </div>
         </div>
-
-        <div class="certs card">
-          <h2 class="certs-heading">Certifications</h2>
-          <ul class="certs-list">
-            <li class="li-main">HubSpot Social Media Certification</li>
-            <li class="li-main">HootSuite Social Media Certification</li>
-            <li class="li-main">Google Analytics Certification</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="in-progress card">
-        <h2 class="ip-heading">What I'm Learning</h2>
-        <ul class="ip-list">
-          <li class="ip-li">HTML</li>
-          <li class="ip-li">CSS</li>
-          <li class="ip-li">JavaScript</li>
-          <li class="ip-li">SEO Optimization</li>
-        </ul>
-
-      </div>
-    </main>
-    <footer>
-      <p>All rights reserved, Billy King.</p>
-    </footer>
-    <script src="js/practice.js">
-
-  </body>
+    </div>
+    <div class="new-book-wrapper">
+        <button id="new-book">New Book</button>
+    </div>
+    
+    <div id="library-main" class="library-main">
+    </div>
+    <script src="js/script.js"></script>
+</body>
 </html>
